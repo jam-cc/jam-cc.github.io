@@ -15,7 +15,7 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
     {
@@ -51,6 +51,7 @@
       <a class="site-name" href="#about">Xi Jiang</a>
       <nav aria-label="Primary navigation">
         <a href="#about">About</a>
+        <a href="#news">News</a>
         <a href="#publications">Publications</a>
         <a href="#experience">Experience</a>
         <a href="#honors">Honors</a>
@@ -72,7 +73,7 @@
 
       <div class="profile-links" aria-label="Profile links">
         <a href="mailto:jiangx2020@mail.sustech.edu.cn">Email</a>
-        <a href="https://scholar.google.com/citations?user=XtU4nDYAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+        <a href="https://scholar.google.com/citations?user=XtU4nDYAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
         <a href="https://github.com/jam-cc" target="_blank" rel="noreferrer">GitHub</a>
       </div>
 
@@ -98,7 +99,7 @@
     <div class="content-column">
       <section class="content-section about-section" id="about" aria-labelledby="about-title">
         <h2 id="about-title">About</h2>
-        <p>I am a Ph.D. candidate in Computer Science at the <strong>Southern University of Science and Technology (SUSTech)</strong>, advised by <a href="https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=2&lang=en" target="_blank" rel="noreferrer">Prof. Feng Zheng</a>.</p>
+        <p>I am a Ph.D. candidate in Computer Science at the <strong>Southern University of Science and Technology (SUSTech)</strong>, advised by <a href="https://faculty.sustech.edu.cn/?tagid=fengzheng&amp;iscss=1&amp;snapid=1&amp;orderby=date&amp;go=2&amp;lang=en" target="_blank" rel="noreferrer">Prof. Feng Zheng</a>.</p>
         <p>My research focuses on industrial anomaly detection, multimodal foundation models, and embodied AI. I aim to build inspection systems that can compare visual evidence, explain anomalies, and actively acquire useful observations.</p>
         <p>I was a visiting Ph.D. student at A*STAR IHPC–CFAR in Singapore, supervised by <a href="https://joeyzhouty.github.io/" target="_blank" rel="noreferrer">Joey Tianyi Zhou</a>, and previously worked as a research intern at Tencent YouTu Lab and Huawei.</p>
 
@@ -111,59 +112,206 @@
         </div>
       </section>
 
-      <section class="content-section" id="publications" aria-labelledby="publications-title">
+      <section class="content-section" id="news" aria-labelledby="news-title">
         <div class="section-heading">
-          <h2 id="publications-title">Selected publications</h2>
-          <a href="https://scholar.google.com/citations?user=XtU4nDYAAAAJ&hl=en" target="_blank" rel="noreferrer">View all <span aria-hidden="true">→</span></a>
+          <h2 id="news-title">News</h2>
+          <span class="section-note">Selected updates</span>
         </div>
 
-        <article class="publication">
-          <div class="publication-topline">
-            <span>ICLR 2025</span>
-            <a href="https://github.com/jam-cc/MMAD" target="_blank" rel="noreferrer">Code ↗</a>
+        <div class="news-list">
+          <article>
+            <time datetime="2026-06">Jun 2026</time>
+            <p>Released our <a href="https://www.preprints.org/manuscript/202606.0719" target="_blank" rel="noreferrer">survey</a> on recent advances in industrial anomaly detection.</p>
+          </article>
+          <article>
+            <time datetime="2026-05">May 2026</time>
+            <p><a href="https://arxiv.org/abs/2605.10397" target="_blank" rel="noreferrer">AnomalyClaw</a> preprint and code were released.</p>
+          </article>
+          <article>
+            <time datetime="2026-03">Mar 2026</time>
+            <p><a href="https://arxiv.org/abs/2603.13779" target="_blank" rel="noreferrer">AD-Copilot</a> preprint and code were released.</p>
+          </article>
+          <article>
+            <time datetime="2025-05">May 2025</time>
+            <p><a href="https://doi.org/10.1016/j.patcog.2024.111295" target="_blank" rel="noreferrer">SoftPatch+</a> appeared in <em>Pattern Recognition</em>.</p>
+          </article>
+          <article>
+            <time datetime="2025-01">Jan 2025</time>
+            <p><a href="https://openreview.net/forum?id=JDiER86r8v" target="_blank" rel="noreferrer">MMAD</a> was accepted to ICLR 2025.</p>
+          </article>
+          <article>
+            <time datetime="2025">2025</time>
+            <p>Received the National Scholarship for Doctoral Students and the SUSTech Special Scholarship.</p>
+          </article>
+          <article>
+            <time datetime="2024">2024</time>
+            <p>Received an Honorable Mention in the CVPR VAND 2.0 Challenge; our image customization work was accepted to ECCV 2024.</p>
+          </article>
+          <article>
+            <time datetime="2023-09">Sep 2023</time>
+            <p>Our Bayesian federated learning work was accepted by <em>IEEE TPAMI</em>.</p>
+          </article>
+          <article>
+            <time datetime="2022">2022</time>
+            <p><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/637a456d89289769ac1ab29617ef7213-Abstract-Conference.html" target="_blank" rel="noreferrer">SoftPatch</a> was accepted to NeurIPS 2022.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <h2 id="publications-title">Publications</h2>
+          <a href="https://scholar.google.com/citations?user=XtU4nDYAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">View all <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="publication-note"><sup>*</sup> Equal contribution. Unaccepted work is listed only when I am first or co-first author.</p>
+
+        <article class="publication publication-featured">
+          <figure class="paper-thumb">
+            <img src="assets/papers/ad-copilot-architecture.png" alt="Architecture of the AD-Copilot comparison encoder" loading="lazy" decoding="async">
+          </figure>
+          <div class="publication-copy">
+            <div class="publication-topline">
+              <span>TIP submission · 2026</span>
+              <span class="paper-links"><a href="https://arxiv.org/abs/2603.13779" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/jam-cc/AD-Copilot" target="_blank" rel="noreferrer">Code</a></span>
+            </div>
+            <h3><a href="https://arxiv.org/abs/2603.13779" target="_blank" rel="noreferrer">AD-Copilot: A Vision-Language Assistant for Industrial Anomaly Detection via Visual In-context Comparison</a></h3>
+            <p class="authors"><strong>Xi Jiang</strong>, Yue Guo, Jian Li, Yong Liu, Bin-Bin Gao, Hanqiu Deng, Jun Liu, Heng Zhao, Chengjie Wang, Feng Zheng</p>
+            <p>A comparison-aware multimodal assistant that learns fine-grained anomaly perception and explanation from paired visual evidence.</p>
           </div>
-          <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XtU4nDYAAAAJ&citation_for_view=XtU4nDYAAAAJ:WF5omc3nYNoC" target="_blank" rel="noreferrer">MMAD: The Comprehensive Benchmark for Multimodal Large Language Models in Industrial Anomaly Detection</a></h3>
-          <p class="authors"><strong>Xi Jiang</strong>, Jian Li, Hanqiu Deng, et al.</p>
-          <p>Evaluating multimodal large language models across industrial anomaly reasoning tasks.</p>
         </article>
 
-        <article class="publication">
-          <div class="publication-topline"><span>NeurIPS 2022</span></div>
-          <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XtU4nDYAAAAJ&citation_for_view=XtU4nDYAAAAJ:IjCSPb-OGe4C" target="_blank" rel="noreferrer">SoftPatch: Unsupervised Anomaly Detection with Noisy Data</a></h3>
-          <p class="authors"><strong>Xi Jiang</strong>, Jianlin Liu, Jinbao Wang, et al.</p>
-          <p>A noise-discriminating coreset strategy for robust normal-only anomaly detection.</p>
-        </article>
-
-        <article class="publication">
-          <div class="publication-topline">
-            <span>Preprint 2026</span>
-            <a href="https://github.com/jam-cc/AD-Copilot" target="_blank" rel="noreferrer">Code ↗</a>
+        <article class="publication publication-text-only">
+          <div class="publication-copy">
+            <div class="publication-topline"><span>AAAI 2027 submission</span></div>
+            <h3>Embodied-AD: Industrial Anomaly Detection through Robotic View Acquisition</h3>
+            <p class="authors"><strong>Xi Jiang</strong>, Zesheng Yang, Bingzhang Hu, Feng Zheng</p>
+            <p>Frames inspection as active robotic perception, using normal 3D Gaussian templates for pose-aligned reference rendering and view selection.</p>
           </div>
-          <h3><a href="https://arxiv.org/abs/2603.13779" target="_blank" rel="noreferrer">AD-Copilot: A Vision-Language Assistant for Industrial Anomaly Detection via Visual In-context Comparison</a></h3>
-          <p class="authors"><strong>Xi Jiang</strong>, Yue Guo, Jian Li, et al.</p>
-          <p>Visual in-context comparison for fine-grained anomaly perception and explanation.</p>
         </article>
 
-        <article class="publication">
-          <div class="publication-topline"><span>Preprint 2026</span></div>
-          <h3><a href="https://arxiv.org/abs/2605.10397" target="_blank" rel="noreferrer">Embodied-AD: Industrial Anomaly Detection through Robotic View Acquisition</a></h3>
-          <p class="authors"><strong>Xi Jiang</strong>, Zesheng Yang, Bingzhang Hu, Feng Zheng</p>
-          <p>Industrial anomaly detection as an active robotic perception problem.</p>
-        </article>
-
-        <article class="publication">
-          <div class="publication-topline">
-            <span>Preprint 2026</span>
-            <a href="https://github.com/jam-cc/AnomalyClaw" target="_blank" rel="noreferrer">Code ↗</a>
+        <article class="publication publication-featured">
+          <figure class="paper-thumb">
+            <img src="assets/papers/anomalyclaw-architecture.png" alt="AnomalyClaw tool-grounded refutation framework" loading="lazy" decoding="async">
+          </figure>
+          <div class="publication-copy">
+            <div class="publication-topline">
+              <span>AAAI submission · 2026</span>
+              <span class="paper-links"><a href="https://arxiv.org/abs/2605.10397" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/jam-cc/AnomalyClaw" target="_blank" rel="noreferrer">Code</a></span>
+            </div>
+            <h3><a href="https://arxiv.org/abs/2605.10397" target="_blank" rel="noreferrer">AnomalyClaw: A Universal Visual Anomaly Detection Agent via Tool-Grounded Refutation</a></h3>
+            <p class="authors"><strong>Xi Jiang</strong>, Yinjie Zhao, Zesheng Yang, Feng Zheng</p>
+            <p>A training-free anomaly agent that challenges its first judgment through multi-turn, tool-grounded refutation.</p>
           </div>
-          <h3><a href="https://www.preprints.org/manuscript/202606.0719" target="_blank" rel="noreferrer">AnomalyClaw: A Universal Visual Anomaly Detection Agent via Tool-Grounded Refutation</a></h3>
-          <p class="authors"><strong>Xi Jiang</strong>, Yinjie Zhao, Zesheng Yang, Feng Zheng</p>
-          <p>A training-free visual anomaly agent with multi-turn, tool-grounded refutation.</p>
+        </article>
+
+        <article class="publication publication-text-only">
+          <div class="publication-copy">
+            <div class="publication-topline"><span>Preprint · 2026</span><span class="paper-links"><a href="https://www.preprints.org/manuscript/202606.0719" target="_blank" rel="noreferrer">Paper</a></span></div>
+            <h3><a href="https://www.preprints.org/manuscript/202606.0719" target="_blank" rel="noreferrer">A Survey of Recent Advances in Industrial Anomaly Detection: From Normal-Only Training to Foundation-Model Priors</a></h3>
+            <p class="authors"><strong>Xi Jiang</strong>, Bingzhang Hu, Yunkang Cao, Feng Zheng</p>
+            <p>Organizes recent progress into five foundation-model-driven generalization mechanisms and outlines open challenges.</p>
+          </div>
+        </article>
+
+        <article class="publication publication-text-only">
+          <div class="publication-copy">
+            <div class="publication-topline"><span>NeurIPS submission · 2026</span><span class="paper-links"><a href="https://arxiv.org/abs/2601.19222" target="_blank" rel="noreferrer">Paper</a></span></div>
+            <h3><a href="https://arxiv.org/abs/2601.19222" target="_blank" rel="noreferrer">UniPCB: A Unified Vision-Language Benchmark for Open-Ended PCB Quality Inspection</a></h3>
+            <p class="authors">Fuxiang Sun<sup>*</sup>, <strong>Xi Jiang<sup>*</sup></strong>, Jiansheng Wu, Haigang Zhang, Feng Zheng, Jinfeng Yang</p>
+            <p>A unified PCB inspection benchmark and progressive curriculum for domain-specialized multimodal reasoning.</p>
+          </div>
+        </article>
+
+        <article class="publication publication-text-only">
+          <div class="publication-copy">
+            <div class="publication-topline"><span>TNNLS minor revision · 2026</span><span class="paper-links"><a href="https://arxiv.org/abs/2603.12606" target="_blank" rel="noreferrer">Paper</a></span></div>
+            <h3><a href="https://arxiv.org/abs/2603.12606" target="_blank" rel="noreferrer">Mastering Negation: Boosting Grounding Models via Grouped Opposition-Based Learning</a></h3>
+            <p class="authors">Zesheng Yang<sup>*</sup>, <strong>Xi Jiang<sup>*</sup></strong>, Bingzhang Hu, Weili Guan, Runmin Cong, Guo-Jun Qi, Feng Zheng</p>
+            <p>Introduces positive–negative semantic groups and opposition-based objectives for negation-aware visual grounding.</p>
+          </div>
+        </article>
+
+        <article class="publication publication-featured">
+          <figure class="paper-thumb">
+            <img src="assets/papers/mmad-overview.png" alt="Overview of the MMAD benchmark and evaluation dimensions" loading="lazy" decoding="async">
+          </figure>
+          <div class="publication-copy">
+            <div class="publication-topline">
+              <span>ICLR 2025 · Accepted</span>
+              <span class="paper-links"><a href="https://openreview.net/forum?id=JDiER86r8v" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/jam-cc/MMAD" target="_blank" rel="noreferrer">Code</a></span>
+            </div>
+            <h3><a href="https://openreview.net/forum?id=JDiER86r8v" target="_blank" rel="noreferrer">MMAD: The Comprehensive Benchmark for Multimodal Large Language Models in Industrial Anomaly Detection</a></h3>
+            <p class="authors"><strong>Xi Jiang</strong>, Jian Li, Hanqiu Deng, Yong Liu, Bin-Bin Gao, Yifeng Zhou, Jialin Li, Chengjie Wang, Feng Zheng</p>
+            <p>A comprehensive benchmark covering anomaly discrimination, localization, description, object analysis, and defect reasoning.</p>
+          </div>
+        </article>
+
+        <article class="publication publication-featured">
+          <figure class="paper-thumb">
+            <img src="assets/papers/softpatch-plus-framework.png" alt="Framework of SoftPatch+ for noise discovery and coreset construction" loading="lazy" decoding="async">
+          </figure>
+          <div class="publication-copy">
+            <div class="publication-topline">
+              <span>Pattern Recognition 2025 · Accepted</span>
+              <span class="paper-links"><a href="https://doi.org/10.1016/j.patcog.2024.111295" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/TencentYoutuResearch/AnomalyDetection-SoftPatch" target="_blank" rel="noreferrer">Code</a></span>
+            </div>
+            <h3><a href="https://doi.org/10.1016/j.patcog.2024.111295" target="_blank" rel="noreferrer">SoftPatch+: Fully Unsupervised Anomaly Classification and Segmentation</a></h3>
+            <p class="authors">Chengjie Wang<sup>*</sup>, <strong>Xi Jiang<sup>*</sup></strong>, Bin-Bin Gao, Zhenye Gan, Yong Liu, Feng Zheng, Lizhuang Ma</p>
+            <p>Extends patch-level denoising with multiple discriminators for robust fully unsupervised inspection under high noise ratios.</p>
+          </div>
+        </article>
+
+        <article class="publication publication-text-only">
+          <div class="publication-copy">
+            <div class="publication-topline"><span>ECCV 2024 · Accepted</span><span class="paper-links"><a href="https://arxiv.org/abs/2403.12658" target="_blank" rel="noreferrer">Paper</a><a href="https://zrealli.github.io/TIGIC/" target="_blank" rel="noreferrer">Project</a></span></div>
+            <h3><a href="https://arxiv.org/abs/2403.12658" target="_blank" rel="noreferrer">Tuning-Free Image Customization with Image and Text Guidance</a></h3>
+            <p class="authors">Pengzhi Li, Qiang Nie, Ying Chen, <strong>Xi Jiang</strong>, Kai Wu, Yuhuan Lin, Yong Liu, Jinlong Peng, Chengjie Wang, Feng Zheng</p>
+            <p>A tuning-free diffusion framework for precise local customization jointly guided by reference images and text.</p>
+          </div>
+        </article>
+
+        <article class="publication publication-text-only">
+          <div class="publication-copy">
+            <div class="publication-topline"><span>Preprint · 2024</span><span class="paper-links"><a href="https://arxiv.org/abs/2403.14213" target="_blank" rel="noreferrer">Paper</a></span></div>
+            <h3><a href="https://arxiv.org/abs/2403.14213" target="_blank" rel="noreferrer">Toward Multi-class Anomaly Detection: Exploring Class-aware Unified Model against Inter-class Interference</a></h3>
+            <p class="authors"><strong>Xi Jiang</strong>, Ying Chen, Qiang Nie, Jianlin Liu, Yong Liu, Chengjie Wang, Feng Zheng</p>
+            <p>MINT-AD learns class-aware query embeddings to reduce inter-class interference in a unified anomaly detector.</p>
+          </div>
+        </article>
+
+        <article class="publication publication-featured">
+          <figure class="paper-thumb paper-thumb-small">
+            <img src="assets/papers/bayesian-fl-framework.png" alt="Server-side and client-side overview of the Bayesian federated learning framework" loading="lazy" decoding="async">
+          </figure>
+          <div class="publication-copy">
+            <div class="publication-topline">
+              <span>IEEE TPAMI 2024 · Accepted Sep 2023</span>
+              <span class="paper-links"><a href="https://arxiv.org/abs/2102.01936" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/Klitter/A-Bayesian-Federated-Learning-Framework-with-Online-Laplace-Approximation" target="_blank" rel="noreferrer">Code</a></span>
+            </div>
+            <h3><a href="https://arxiv.org/abs/2102.01936" target="_blank" rel="noreferrer">A Bayesian Federated Learning Framework with Online Laplace Approximation</a></h3>
+            <p class="authors">Liangxi Liu<sup>*</sup>, <strong>Xi Jiang<sup>*</sup></strong>, Feng Zheng, Hong Chen, Guo-Jun Qi, Heng Huang, Ling Shao</p>
+            <p>Approximates client and server posteriors online to reduce aggregation error and local forgetting under heterogeneous data.</p>
+          </div>
+        </article>
+
+        <article class="publication publication-featured">
+          <figure class="paper-thumb">
+            <img src="assets/papers/softpatch-intuition.png" alt="Intuition of SoftPatch for learning from noisy training data" loading="lazy" decoding="async">
+          </figure>
+          <div class="publication-copy">
+            <div class="publication-topline">
+              <span>NeurIPS 2022 · Accepted</span>
+              <span class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/637a456d89289769ac1ab29617ef7213-Abstract-Conference.html" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/TencentYoutuResearch/AnomalyDetection-SoftPatch" target="_blank" rel="noreferrer">Code</a></span>
+            </div>
+            <h3><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/637a456d89289769ac1ab29617ef7213-Abstract-Conference.html" target="_blank" rel="noreferrer">SoftPatch: Unsupervised Anomaly Detection with Noisy Data</a></h3>
+            <p class="authors"><strong>Xi Jiang</strong>, Jianlin Liu, Jinbao Wang, Qiang Nie, Kai Wu, Yong Liu, Chengjie Wang, Feng Zheng</p>
+            <p>A patch-level noise discriminator and soft-weighted coreset that make normal-only anomaly detection robust to contaminated training data.</p>
+          </div>
         </article>
       </section>
 
       <section class="content-section" id="experience" aria-labelledby="experience-title">
-        <h2 id="experience-title">Experience & education</h2>
+        <h2 id="experience-title">Experience &amp; education</h2>
         <div class="history-grid">
           <div>
             <h3>Experience</h3>
@@ -209,7 +357,7 @@
       </section>
 
       <section class="content-section" id="honors" aria-labelledby="honors-title">
-        <h2 id="honors-title">Honors & service</h2>
+        <h2 id="honors-title">Honors &amp; service</h2>
         <ul class="honors-list">
           <li><time>2025</time><span>National Scholarship for Doctoral Students</span></li>
           <li><time>2025</time><span>SUSTech Special Scholarship</span></li>

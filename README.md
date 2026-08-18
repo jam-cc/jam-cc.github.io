@@ -17,4 +17,5 @@ Then visit `http://localhost:8000`.
 - `index.html` — content and page structure
 - `styles.css` — responsive visual system
 - `assets/profile.png` — profile portrait
+- `assets/papers/` — paper intuition and framework thumbnails
 - `assets/favicon.svg` — site icon

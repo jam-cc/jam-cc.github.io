@@ -182,19 +182,74 @@ nav a:hover { color: var(--accent); }
   font-weight: 500;
   text-decoration: none;
 }
+.section-note {
+  flex: none;
+  color: var(--muted);
+  font-size: 12px;
+}
+.news-list { border-top: 1px solid var(--line); }
+.news-list article {
+  display: grid;
+  grid-template-columns: 94px minmax(0, 1fr);
+  gap: 18px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.news-list time {
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+.news-list p {
+  margin: 0;
+  color: #475467;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.news-list a { color: var(--ink); font-weight: 500; }
+.news-list a:hover { color: var(--accent); }
+.publication-note {
+  margin: -9px 0 16px;
+  color: var(--muted);
+  font-size: 12px;
+}
 .publication {
-  margin-bottom: 14px;
-  padding: 22px 24px;
+  margin: 0;
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+}
+.publication-featured {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+.publication-text-only { padding-left: 214px; }
+.paper-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4 / 3;
+  margin: 2px 0 0;
+  overflow: hidden;
   background: var(--paper);
   border: 1px solid var(--line);
-  border-radius: 7px;
+  border-radius: 5px;
 }
-.publication:last-child { margin-bottom: 0; }
+.paper-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.paper-thumb-small { padding: 10px; }
+.publication-copy { min-width: 0; }
 .publication-topline {
   min-height: 20px;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 16px;
   margin-bottom: 8px;
   color: var(--accent);
   font-size: 11px;
@@ -203,9 +258,16 @@ nav a:hover { color: var(--accent); }
   text-transform: uppercase;
 }
 .publication-topline a { text-decoration: none; }
+.paper-links {
+  display: flex;
+  flex: none;
+  gap: 10px;
+}
+.paper-links a { color: var(--muted); }
+.paper-links a:hover { color: var(--accent); }
 .publication h3 {
   margin: 0;
-  font: 600 20px/1.35 var(--sans);
+  font: 600 19px/1.38 var(--sans);
   letter-spacing: -.015em;
 }
 .publication h3 a { text-decoration: none; }
@@ -218,6 +280,7 @@ nav a:hover { color: var(--accent); }
 }
 .publication .authors { color: #475467; font-size: 13px; }
 .publication .authors strong { color: var(--accent); }
+.publication sup { font-size: .72em; }
 
 .history-grid {
   display: grid;
@@ -301,6 +364,14 @@ nav a:hover { color: var(--accent); }
   .identity { margin-top: 10px; }
   .profile-links { align-self: end; margin-top: 16px; }
   .sidebar-section { grid-column: 1 / -1; }
+  .publication-featured { grid-template-columns: 190px minmax(0, 1fr); }
+  .publication-text-only { padding-left: 214px; }
+}
+
+@media (min-width: 781px) and (max-width: 920px) {
+  .page-layout { grid-template-columns: 220px minmax(0, 1fr); gap: 40px; }
+  .publication-featured { grid-template-columns: 150px minmax(0, 1fr); gap: 18px; }
+  .publication-text-only { padding-left: 168px; }
 }
 
 @media (max-width: 520px) {
@@ -320,8 +391,14 @@ nav a:hover { color: var(--accent); }
   .about-section p { font-size: 15px; }
   .trajectory { display: grid; grid-template-columns: 1fr; gap: 4px; }
   .trajectory i { transform: rotate(90deg); transform-origin: left center; }
-  .publication { padding: 18px; }
+  .publication { padding: 22px 0; }
+  .publication-featured { grid-template-columns: 1fr; gap: 16px; }
+  .publication-text-only { padding-left: 0; }
+  .paper-thumb { aspect-ratio: 16 / 9; }
+  .paper-thumb-small { padding: 14px; }
+  .publication-topline { align-items: flex-start; }
   .publication h3 { font-size: 17px; }
+  .news-list article { grid-template-columns: 76px minmax(0, 1fr); gap: 12px; }
   .history-grid { grid-template-columns: 1fr; gap: 34px; }
   .honors-list li { grid-template-columns: 74px 1fr; gap: 12px; }
   .site-footer { min-height: 100px; flex-direction: column; align-items: flex-start; justify-content: center; }
