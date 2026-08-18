@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# Xi Jiang — Academic Homepage
 
-You can use the [editor on GitHub](https://github.com/jam-cc/jam.cc.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Personal academic homepage for [Xi Jiang](https://github.com/jam-cc), a Ph.D. candidate at the Southern University of Science and Technology.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The site is a lightweight, dependency-free GitHub Pages build. Open `index.html` directly or serve the folder with any static web server.
 
-### Markdown
+## Local preview
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+python3 -m http.server 8000
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Then visit `http://localhost:8000`.
 
-### Jekyll Themes
+## Structure
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jam-cc/jam.cc.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- `index.html` — content and page structure
+- `styles.css` — responsive visual system
+- `script.js` — navigation, reveal transitions, and the anomaly-field canvas
+- `assets/favicon.svg` — site icon

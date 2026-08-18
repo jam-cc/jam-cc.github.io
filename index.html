@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Xi Jiang is a Ph.D. candidate at SUSTech researching industrial anomaly detection, computer vision, multimodal agents, and embodied AI.">
+  <meta name="theme-color" content="#eef4f8">
+  <meta property="og:title" content="Xi Jiang — Industrial Anomaly Detection Researcher">
+  <meta property="og:description" content="Research in industrial anomaly detection, multimodal foundation models, and embodied AI.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jam-cc.github.io/">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/41288427?v=4">
+  <title>Xi Jiang — Computer Vision Researcher</title>
+  <link rel="canonical" href="https://jam-cc.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Xi Jiang",
+      "alternateName": "蒋希",
+      "url": "https://jam-cc.github.io/",
+      "jobTitle": "Ph.D. Candidate",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Southern University of Science and Technology"
+      },
+      "sameAs": [
+        "https://github.com/jam-cc",
+        "https://scholar.google.com/citations?user=XtU4nDYAAAAJ&hl=en"
+      ],
+      "knowsAbout": [
+        "Industrial anomaly detection",
+        "Computer vision",
+        "Multimodal agents",
+        "Embodied AI"
+      ]
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="shell nav-shell">
+      <a class="brand" href="#top" aria-label="Xi Jiang, home">
+        <span class="brand-mark" aria-hidden="true">XJ</span>
+        <span class="brand-name">Xi Jiang</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+        <span></span><span></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-nav>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Computer vision · Multimodal intelligence</p>
+        <h1 id="hero-title">I teach machines to notice what <em>doesn’t belong.</em></h1>
+        <p class="hero-intro">I’m <strong>Xi Jiang (蒋希)</strong>, a Ph.D. candidate at SUSTech. My research turns visual inspection from a closed-set classifier into a reasoning problem: compare, localize, verify, and act.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#publications">Explore selected work</a>
+          <a class="button button-quiet" href="https://scholar.google.com/citations?user=XtU4nDYAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+        </div>
+        <dl class="hero-facts" aria-label="Current position">
+          <div>
+            <dt>Position</dt>
+            <dd>Ph.D. Candidate</dd>
+          </div>
+          <div>
+            <dt>Institution</dt>
+            <dd>SUSTech</dd>
+          </div>
+          <div>
+            <dt>Based in</dt>
+            <dd>Shenzhen, China</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-visual reveal" data-delay="1">
+        <div class="field-header">
+          <span>Visual inspection field</span>
+          <span class="live-label"><i></i> Signal active</span>
+        </div>
+        <div class="field-stage" data-field-stage>
+          <canvas data-anomaly-field role="img" aria-label="A field of normal visual features with one highlighted anomaly"></canvas>
+          <div class="field-reticle" aria-hidden="true" data-reticle></div>
+          <div class="anomaly-note" aria-hidden="true">
+            <span>Deviation</span>
+            <strong>localized</strong>
+          </div>
+        </div>
+        <div class="field-legend" aria-hidden="true">
+          <span><i class="normal-dot"></i> reference features</span>
+          <span><i class="alert-dot"></i> anomalous signal</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="signal-band" aria-label="Research focus summary">
+      <div class="shell signal-grid">
+        <p>From normal-only learning</p>
+        <span aria-hidden="true">→</span>
+        <p>to foundation-model priors</p>
+        <span aria-hidden="true">→</span>
+        <p>to embodied inspection</p>
+      </div>
+    </section>
+
+    <section class="section shell" id="research" aria-labelledby="research-title">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Research agenda</p>
+        <h2 id="research-title">Building inspection systems that can reason under uncertainty.</h2>
+        <p>My work connects robust perception with multimodal reasoning and active interaction.</p>
+      </div>
+      <div class="research-grid">
+        <article class="research-card reveal">
+          <span class="card-index" aria-hidden="true">A</span>
+          <h3>Industrial anomaly detection</h3>
+          <p>Learning reliable representations from imperfect, noisy, or normal-only industrial data.</p>
+          <div class="card-spectrum" aria-hidden="true"><i></i><i></i><i></i><i class="active"></i><i></i></div>
+        </article>
+        <article class="research-card reveal" data-delay="1">
+          <span class="card-index" aria-hidden="true">B</span>
+          <h3>Multimodal reasoning</h3>
+          <p>Enabling vision-language models to compare evidence, explain defects, and use tools.</p>
+          <div class="card-spectrum" aria-hidden="true"><i></i><i class="active"></i><i></i><i></i><i></i></div>
+        </article>
+        <article class="research-card reveal" data-delay="2">
+          <span class="card-index" aria-hidden="true">C</span>
+          <h3>Embodied inspection</h3>
+          <p>Letting agents acquire new views, test hypotheses, and close the loop between seeing and acting.</p>
+          <div class="card-spectrum" aria-hidden="true"><i></i><i></i><i></i><i></i><i class="active"></i></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section publication-section" id="publications" aria-labelledby="publications-title">
+      <div class="shell">
+        <div class="section-heading split-heading reveal">
+          <div>
+            <p class="section-kicker">Selected publications</p>
+            <h2 id="publications-title">Research, in public.</h2>
+          </div>
+          <a class="text-link" href="https://scholar.google.com/citations?user=XtU4nDYAAAAJ&hl=en" target="_blank" rel="noreferrer">All publications on Scholar <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="publication-list">
+          <article class="publication reveal">
+            <div class="publication-meta"><span>ICLR 2025</span><span>Benchmark</span></div>
+            <div class="publication-body">
+              <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XtU4nDYAAAAJ&citation_for_view=XtU4nDYAAAAJ:WF5omc3nYNoC" target="_blank" rel="noreferrer">MMAD: The Comprehensive Benchmark for Multimodal Large Language Models in Industrial Anomaly Detection</a></h3>
+              <p>Evaluates more than ten open- and closed-source MLLMs across industrial anomaly reasoning tasks, then studies what actually improves their performance.</p>
+              <div class="publication-links"><a href="https://github.com/jam-cc/MMAD" target="_blank" rel="noreferrer">Code ↗</a><span>Xi Jiang et al.</span></div>
+            </div>
+          </article>
+
+          <article class="publication reveal">
+            <div class="publication-meta"><span>NeurIPS 2022</span><span>Robust learning</span></div>
+            <div class="publication-body">
+              <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XtU4nDYAAAAJ&citation_for_view=XtU4nDYAAAAJ:IjCSPb-OGe4C" target="_blank" rel="noreferrer">SoftPatch: Unsupervised Anomaly Detection with Noisy Data</a></h3>
+              <p>Introduces a noise-discriminating coreset strategy for image anomaly detection that remains robust when normal-only training data is contaminated.</p>
+              <div class="publication-links"><span>Xi Jiang et al.</span></div>
+            </div>
+          </article>
+
+          <article class="publication reveal">
+            <div class="publication-meta"><span>Preprint 2026</span><span>Multimodal agent</span></div>
+            <div class="publication-body">
+              <h3><a href="https://arxiv.org/abs/2603.13779" target="_blank" rel="noreferrer">AD-Copilot: A Vision-Language Assistant for Industrial Anomaly Detection via Visual In-context Comparison</a></h3>
+              <p>Combines visual in-context comparison with multimodal post-training to improve fine-grained anomaly perception, localization, and explanation.</p>
+              <div class="publication-links"><a href="https://github.com/jam-cc/AD-Copilot" target="_blank" rel="noreferrer">Code ↗</a><span>Xi Jiang et al.</span></div>
+            </div>
+          </article>
+
+          <article class="publication reveal">
+            <div class="publication-meta"><span>Preprint 2026</span><span>Embodied AI</span></div>
+            <div class="publication-body">
+              <h3><a href="https://arxiv.org/abs/2605.10397" target="_blank" rel="noreferrer">Embodied-AD: Industrial Anomaly Detection through Robotic View Acquisition</a></h3>
+              <p>Frames industrial inspection as an active perception problem and introduces RoboIAD-40 for evaluating robotic view acquisition.</p>
+              <div class="publication-links"><span>Xi Jiang, Zesheng Yang, Bingzhang Hu, Feng Zheng</span></div>
+            </div>
+          </article>
+
+          <article class="publication reveal">
+            <div class="publication-meta"><span>Preprint 2026</span><span>Tool use</span></div>
+            <div class="publication-body">
+              <h3><a href="https://www.preprints.org/manuscript/202606.0719" target="_blank" rel="noreferrer">AnomalyClaw: A Universal Visual Anomaly Detection Agent via Tool-Grounded Refutation</a></h3>
+              <p>A training-free visual anomaly agent that pairs a VLM’s initial judgment with a multi-turn, tool-grounded refutation process.</p>
+              <div class="publication-links"><a href="https://github.com/jam-cc/AnomalyClaw" target="_blank" rel="noreferrer">Code ↗</a><span>Xi Jiang et al.</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="journey" aria-labelledby="journey-title">
+      <div class="section-heading split-heading reveal">
+        <div>
+          <p class="section-kicker">Journey</p>
+          <h2 id="journey-title">Research shaped across academia and industry.</h2>
+        </div>
+        <p>From robust visual learning to multimodal agents, each stop sharpened a different part of the inspection problem.</p>
+      </div>
+
+      <div class="journey-layout">
+        <div class="timeline" aria-label="Experience timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2025 — 2026</div>
+            <div><p class="timeline-label">Visiting Ph.D. Student</p><h3>A*STAR, Singapore</h3><p>Vision-language foundation models and multimodal agents at IHPC–CFAR, supervised by Joey Tianyi Zhou.</p></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2022 — 2025</div>
+            <div><p class="timeline-label">Research Intern</p><h3>Tencent YouTu Lab</h3><p>Industrial AI quality inspection, anomaly detection, and multimodal large language models.</p></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2021 — 2022</div>
+            <div><p class="timeline-label">Research Intern</p><h3>Huawei</h3><p>Continual learning for intelligent network fault analysis and real-world model iteration.</p></div>
+          </article>
+        </div>
+
+        <aside class="education-card reveal" aria-labelledby="education-title">
+          <p class="section-kicker">Education</p>
+          <h3 id="education-title">A continuous research path in computer science.</h3>
+          <ol>
+            <li><span>2023 — present</span><strong>Ph.D. Candidate</strong><small>Southern University of Science and Technology</small></li>
+            <li><span>2020 — 2023</span><strong>M.Sc. in Computer Science</strong><small>Southern University of Science and Technology</small></li>
+            <li><span>2016 — 2020</span><strong>B.Sc. in Computer Science</strong><small>Xi’an Jiaotong University</small></li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <section class="recognition-section" aria-labelledby="recognition-title">
+      <div class="shell recognition-layout">
+        <div class="recognition-intro reveal">
+          <p class="section-kicker">Recognition & service</p>
+          <h2 id="recognition-title">Contributing to the field beyond the paper.</h2>
+          <a class="open-source-callout" href="https://github.com/M-3LAB/awesome-industrial-anomaly-detection" target="_blank" rel="noreferrer">
+            <span>Open source</span>
+            <strong>Awesome Industrial Anomaly Detection</strong>
+            <small>Co-creator & maintainer <i aria-hidden="true">↗</i></small>
+          </a>
+        </div>
+        <ul class="recognition-list reveal" data-delay="1">
+          <li><span>2025</span><p>National Scholarship for Doctoral Students</p></li>
+          <li><span>2025</span><p>SUSTech Special Scholarship</p></li>
+          <li><span>2024</span><p>CVPR VAND 2.0 Challenge — Honorable Mention</p></li>
+          <li><span>2023–25</span><p>Outstanding Graduate Student Award</p></li>
+          <li><span>Service</span><p>Reviewer for ICLR, NeurIPS, CVPR, ICCV, ECCV, CoRL, ACM MM, WACV, and more</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-layout reveal">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">Let’s make visual intelligence more reliable.</h2>
+        </div>
+        <div class="contact-copy">
+          <p>I’m always glad to discuss research collaborations, open-source work, and industrial anomaly detection.</p>
+          <a class="email-link" href="mailto:jiangx2020@mail.sustech.edu.cn">jiangx2020@mail.sustech.edu.cn <span aria-hidden="true">↗</span></a>
+          <div class="social-links">
+            <a href="https://github.com/jam-cc" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=XtU4nDYAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <p>Xi Jiang <span aria-hidden="true">·</span> Shenzhen, China</p>
+      <p>Built for thoughtful machines <span aria-hidden="true">·</span> <span data-year></span></p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
