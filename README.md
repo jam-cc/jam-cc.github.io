@@ -18,4 +18,5 @@ Then visit `http://localhost:8000`.
 - `styles.css` — responsive visual system
 - `assets/profile.png` — profile portrait
 - `assets/papers/` — paper intuition and framework thumbnails
-- `assets/favicon.svg` — site icon
+- `assets/favicon.svg` — browser tab icon
+- `assets/apple-touch-icon.png` — mobile bookmark icon

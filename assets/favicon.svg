@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#1f2937"/>
-  <text x="32" y="39" fill="#ffffff" font-family="Georgia,serif" font-size="24" font-weight="700" text-anchor="middle">XJ</text>
-  <rect x="14" y="48" width="36" height="3" rx="1.5" fill="#b7792f"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Xi Jiang monogram">
+  <rect width="64" height="64" rx="15" fill="#1f2937"/>
+  <path d="M17 17 35 47M35 17 17 47" fill="none" stroke="#fbfbfa" stroke-width="5" stroke-linecap="round"/>
+  <path d="M46 17v20c0 7-3.5 10-10 10" fill="none" stroke="#b7792f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
