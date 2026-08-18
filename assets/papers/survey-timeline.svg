@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Concept timeline for the industrial anomaly detection survey">
+  <rect width="640" height="360" rx="18" fill="#ffffff"/>
+  <rect x="18" y="18" width="604" height="324" rx="14" fill="#fbfcfd" stroke="#d7dee7" stroke-width="2"/>
+  <text x="44" y="58" fill="#1f2937" font-family="Arial,sans-serif" font-size="21" font-weight="700">Industrial anomaly detection · 2019—2026</text>
+  <text x="44" y="88" fill="#667085" font-family="Arial,sans-serif" font-size="15">from category-specific normal-only training to foundation-model priors</text>
+
+  <path d="M54 126h532" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="74" cy="126" r="8" fill="#64748b"/>
+  <circle cx="270" cy="126" r="8" fill="#64748b"/>
+  <circle cx="414" cy="126" r="12" fill="#b7792f"/>
+  <circle cx="566" cy="126" r="8" fill="#b7792f"/>
+  <text x="74" y="153" text-anchor="middle" fill="#667085" font-family="Arial,sans-serif" font-size="14">2019</text>
+  <text x="270" y="153" text-anchor="middle" fill="#667085" font-family="Arial,sans-serif" font-size="14">2022</text>
+  <text x="414" y="153" text-anchor="middle" fill="#8a541b" font-family="Arial,sans-serif" font-size="14" font-weight="700">2024</text>
+  <text x="566" y="153" text-anchor="middle" fill="#8a541b" font-family="Arial,sans-serif" font-size="14">2026</text>
+
+  <rect x="44" y="184" width="168" height="116" rx="12" fill="#eef2f6"/>
+  <text x="60" y="210" fill="#334155" font-family="Arial,sans-serif" font-size="16" font-weight="700">Classical era</text>
+  <text x="60" y="238" fill="#667085" font-family="Arial,sans-serif" font-size="15">Reconstruction</text>
+  <text x="60" y="263" fill="#667085" font-family="Arial,sans-serif" font-size="15">Embedding</text>
+  <text x="60" y="288" fill="#667085" font-family="Arial,sans-serif" font-size="15">Memory bank</text>
+
+  <rect x="228" y="184" width="368" height="116" rx="12" fill="#fff4e5"/>
+  <text x="246" y="210" fill="#8a541b" font-family="Arial,sans-serif" font-size="16" font-weight="700">Five foundation-prior mechanisms</text>
+  <g font-family="Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">
+    <rect x="246" y="228" width="94" height="28" rx="14" fill="#dceaf7"/><text x="293" y="247" fill="#315b7c">Visual</text>
+    <rect x="350" y="228" width="105" height="28" rx="14" fill="#e8e0f2"/><text x="402" y="247" fill="#5c4776">Reasoning</text>
+    <rect x="465" y="228" width="112" height="28" rx="14" fill="#dfeede"/><text x="521" y="247" fill="#466c45">Geometry</text>
+    <rect x="285" y="266" width="112" height="28" rx="14" fill="#f3dfca"/><text x="341" y="285" fill="#805330">Universal</text>
+    <rect x="410" y="266" width="126" height="28" rx="14" fill="#f4dce0"/><text x="473" y="285" fill="#824a55">Synthesis</text>
+  </g>
+</svg>
