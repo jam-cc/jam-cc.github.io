@@ -16,5 +16,5 @@ Then visit `http://localhost:8000`.
 
 - `index.html` — content and page structure
 - `styles.css` — responsive visual system
-- `script.js` — navigation, reveal transitions, and the anomaly-field canvas
+- `assets/profile.png` — profile portrait
 - `assets/favicon.svg` — site icon
