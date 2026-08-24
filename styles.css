@@ -153,21 +153,8 @@ nav a:hover { color: var(--accent); }
   color: #374151;
   font-size: 17px;
 }
+.about-section p:last-child { margin-bottom: 0; }
 .about-section a, .contact-note a { color: var(--accent); font-weight: 500; }
-.trajectory {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px 12px;
-  margin-top: 30px;
-  padding: 15px 18px;
-  background: var(--soft);
-  border-radius: 6px;
-  color: var(--muted);
-  font-size: 13px;
-  font-weight: 500;
-}
-.trajectory i { color: var(--accent); font-style: normal; }
 
 .section-heading {
   display: flex;
@@ -386,8 +373,6 @@ nav a:hover { color: var(--accent); }
   .content-section + .content-section { padding-top: 40px; }
   .content-section h2 { font-size: 28px; }
   .about-section p { font-size: 15px; }
-  .trajectory { display: grid; grid-template-columns: 1fr; gap: 4px; }
-  .trajectory i { transform: rotate(90deg); transform-origin: left center; }
   .publication { padding: 22px 0; }
   .publication-featured { grid-template-columns: 1fr; gap: 16px; }
   .paper-thumb { aspect-ratio: 16 / 9; }
