@@ -308,6 +308,7 @@ nav a:hover { color: var(--accent); }
 }
 .history-list strong { font-size: 14px; }
 .history-list span { color: var(--muted); font-size: 13px; }
+.history-list a { color: var(--accent); font-weight: 500; }
 
 .honors-list {
   list-style: none;
